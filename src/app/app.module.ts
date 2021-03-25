@@ -5,6 +5,7 @@ import { MainService } from './main.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { RouterModule, Routes } from '@angular/router';
+import { PinturaComponent } from './pintura/pintura.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent }
@@ -12,7 +13,8 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PinturaComponent
   ],
   imports: [
     BrowserModule,

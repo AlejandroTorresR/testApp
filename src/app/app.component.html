@@ -1,1 +1,3 @@
-<router-outlet></router-outlet>
+<div class="container">
+    <app-pintura *ngFor="let item of pinturas" [dynamicParams]="item"></app-pintura>
+</div>

@@ -11,8 +11,8 @@ export class MainService {
     private http: HttpClient
   ) { }
 
-  public peticionEjemplo(): Observable <any> {
-    const url = '';
+  obtenerPinturas(): Observable <any> {
+    const url = 'assets/pinturas.json';
     return this.http.get(url);
   }
 

@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: ArchivoBlack;
+    src: url(./assets/ArchivoBlack.otf);
+}
+body{
+    background: #4a3c12;
+}
